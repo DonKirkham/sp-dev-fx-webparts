@@ -5175,7 +5175,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-content-query-onprem/Misc/toolpart.gif",
+        "url": "https://github.com/pnp/sp-dev-fx-webparts/blob/main/samples/react-content-query-onprem/Misc/toolpart.gif?raw=true",
         "alt": "Content Query Web Part  (On-Premises SharePoint)"
       }
     ],
@@ -5185,6 +5185,60 @@
         "company": "SPP Technologies",
         "pictureUrl": "https://github.com/spplante.png",
         "name": "Simon-Pierre Plante"
+      }
+    ],
+    "references": [
+      {
+        "name": "Build your first SharePoint client-side web part",
+        "description": "Client-side web parts are client-side components that run in the context of a SharePoint page. Client-side web parts can be deployed to SharePoint environments that support the SharePoint Framework. You can also use modern JavaScript web frameworks, tools, and libraries to build them.",
+        "url": "https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part"
+      }
+    ]
+  },
+  {
+    "name": "pnp-sp-dev-spfx-web-parts-react-copy-views",
+    "source": "pnp",
+    "title": "Copy Views",
+    "shortDescription": "The Copy Views solution enables a user to copy views from one list/library to another across site collections.",
+    "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-copy-views",
+    "longDescription": [
+      "The Copy Views solution enables a user to copy views from one list/library to another across site collections. It can be used as a webpart on a page, or as a ListView Command Set extension. The user can select multiple views to copy to multiple target lists."
+    ],
+    "creationDateTime": "2022-08-29",
+    "updateDateTime": "2022-09-12",
+    "products": [
+      "SharePoint"
+    ],
+    "metadata": [
+      {
+        "key": "CLIENT-SIDE-DEV",
+        "value": "React"
+      },
+      {
+        "key": "SPFX-VERSION",
+        "value": "1.15.2"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-copy-views/assets/copy-views.gif",
+        "alt": "Copy Views solution"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-copy-views/assets/copy-views-screenshot.png",
+        "alt": "Copy Views solution"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "martinlingstuyl",
+        "company": "I4-YOU Business Solutions b.v.",
+        "pictureUrl": "https://avatars.githubusercontent.com/u/5267487?v=4",
+        "name": "Martin Lingstuyl"
       }
     ],
     "references": [
@@ -8463,7 +8517,7 @@
       },
       {
         "key": "SPFX-VERSION",
-        "value": "1.14"
+        "value": "1.15.0"
       }
     ],
     "thumbnails": [
@@ -9599,7 +9653,7 @@
     "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-list-form",
     "title": "List Form Web Part",
     "creationDateTime": "2017-11-24",
-    "updateDateTime": "2021-02-19",
+    "updateDateTime": "2022-09-05",
     "shortDescription": "The React List Form web part is a web part for adding a list form to any page. It provides a working example of implementing generic SharePoint list forms using the SharePoint Framework (SPFx) and the React and Office UI Fabric libraries.",
     "longDescription": [
       "The React List Form web part is a web part for adding a list form to any page. It provides a working example of implementing generic SharePoint list forms using the SharePoint Framework (SPFx) and the React and Office UI Fabric libraries."
@@ -12547,6 +12601,12 @@
         "order": 100,
         "url": "https://camo.githubusercontent.com/a539e3ae63602becc87309ee2a965e4d5a605239/68747470733a2f2f6d6d7368617265706f696e742e66696c65732e776f726470726573732e636f6d2f323032302f30312f616464696e5f6f766572616c6c2e706e67",
         "alt": "Outlook to Teams"
+      },
+      {
+        "type": "video",
+        "order": 101,
+        "url": "https://www.youtube.com/embed/h4NXi-p2fEw",
+        "alt": "Community demo of the web part"
       }
     ],
     "authors": [
@@ -12581,7 +12641,7 @@
       "This web part fetches all the automatically added Header anchor tags in a SharePoint page and displays them in a Navigation component."
     ],
     "creationDateTime": "2019-09-05",
-    "updateDateTime": "2022-07-19",
+    "updateDateTime": "2022-08-17",
     "products": [
       "SharePoint"
     ],
@@ -12612,7 +12672,7 @@
         "twitter": "aakash_316"
       },
       {
-        "gitHubAccount": "jwaegebaert",
+        "gitHubAccount": "Jwaegebaert",
         "pictureUrl": "https://github.com/Jwaegebaert.png",
         "name": "Jasey Waegebaert"
       }
@@ -12754,7 +12814,7 @@
       "This web part allows users to create a faux page hierarchy in their pages library and use it for page-to-page navigation."
     ],
     "creationDateTime": "2020-04-30",
-    "updateDateTime": "2022-03-31",
+    "updateDateTime": "2022-07-29",
     "products": [
       "SharePoint"
     ],
@@ -12805,6 +12865,60 @@
         "name": "Supporting section backgrounds",
         "description": "Starting with SharePoint Framework v1.8, web parts can be made aware of any section backgrounds and use these colors to improve the appearance of a web part when hosted in a section with a different background.",
         "url": "https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/guidance/supporting-section-backgrounds"
+      }
+    ]
+  },
+  {
+    "name": "pnp-sp-dev-spfx-web-parts-react-palette-picker",
+    "source": "pnp",
+    "title": "Palette Picker",
+    "shortDescription": "Custom Property Pane pain resolved (whew), color palette generator inspired by [Jhey](https://codepen.io/jh3y/pen/rNjbmBQ?editors=0011).",
+    "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-palette-picker",
+    "downloadUrl": "https://pnp.github.io/download-partial/?url=https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-palette-picker",
+    "longDescription": [
+      "Built it to get an understanding of [Property Pane Portal](https://www.npmjs.com/package/property-pane-portal) and cuz I want to eventually build in a dynamic palette generator/css reader for my web parts."
+    ],
+    "creationDateTime": "2022-08-01",
+    "updateDateTime": "2022-08-01",
+    "products": [
+      "SharePoint"
+    ],
+    "metadata": [
+      {
+        "key": "CLIENT-SIDE-DEV",
+        "value": "React"
+      },
+      {
+        "key": "SPFX-VERSION",
+        "value": "1.13.1"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/sp-dev-fx-webparts/main/samples/react-palette-picker/assets/palettePickerWebPart.gif",
+        "alt": "Web Part Preview"
+      },
+      {
+        "type": "image",
+        "order": 200,
+        "url": "https://raw.githubusercontent.com/pnp/sp-dev-fx-webparts/main/samples/react-palette-picker/assets/palettePickerWebPartAfterSaveAndRefresh.gif",
+        "alt": "Web Part Preview"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "flowerbot",
+        "pictureUrl": "https://github.com/flowerbot.png",
+        "name": "Linda K"
+      }
+    ],
+    "references": [
+      {
+        "name": "Build your first SharePoint client-side web part",
+        "description": "Client-side web parts are client-side components that run in the context of a SharePoint page. Client-side web parts can be deployed to SharePoint environments that support the SharePoint Framework. You can also use modern JavaScript web frameworks, tools, and libraries to build them.",
+        "url": "https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part"
       }
     ]
   },
@@ -13340,6 +13454,54 @@
         "name": "Build your first SharePoint client-side web part",
         "description": "Client-side web parts are client-side components that run in the context of a SharePoint page. Client-side web parts can be deployed to SharePoint environments that support the SharePoint Framework. You can also use modern JavaScript web frameworks, tools, and libraries to build them.",
         "url": "https://docs.microsoft.com/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part"
+      }
+    ]
+  },
+  {
+    "name": "pnp-sp-dev-spfx-web-parts-react-pnp-js-hooks",
+    "source": "pnp",
+    "title": "pnp/js and ReactJS Functional Components",
+    "shortDescription": "This solution builds off of the solution react-async-await-sp-pnp-js submitted by Jose Quinto, and re-work of the existing class based react-pnp-js-sample by Julie Turner. This implementation refactors to take aspects out and utilize and showcase PnPjs Version 3 using React Functional Components and Hooks.",
+    "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-pnp-js-hooks",
+    "downloadUrl": "https://pnp.github.io/download-partial/?url=https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-pnp-js-hooks",
+    "longDescription": [
+      "This solution builds off of the solution react-async-await-sp-pnp-js submitted by Jose Quinto, and re-work of the existing class based react-pnp-js-sample by Julie Turner. This implementation refactors to take aspects out and utilize and showcase PnPjs Version 3 using React Functional Components and Hooks."
+    ],
+    "creationDateTime": "2022-10-17",
+    "updateDateTime": "2022-10-18",
+    "products": [
+      "SharePoint"
+    ],
+    "metadata": [
+      {
+        "key": "CLIENT-SIDE-DEV",
+        "value": "React"
+      },
+      {
+        "key": "SPFX-VERSION",
+        "value": "1.15.2"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-pnp-js-hooks/assets/react-pnp-js-sample.png",
+        "alt": "Web Part Preview"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "bcameron1231",
+        "pictureUrl": "https://github.com/bcameron1231.png",
+        "name": "Beau Cameron"
+      }
+    ],
+    "references": [
+      {
+        "name": "Build your first SharePoint client-side web part",
+        "description": "Client-side web parts are client-side components that run in the context of a SharePoint page. Client-side web parts can be deployed to SharePoint environments that support the SharePoint Framework. You can also use modern JavaScript web frameworks, tools, and libraries to build them.",
+        "url": "https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part"
       }
     ]
   },
@@ -14598,7 +14760,7 @@
       },
       {
         "key": "SPFX-VERSION",
-        "value": "1.15"
+        "value": "1.15.0"
       }
     ],
     "thumbnails": [
@@ -14944,7 +15106,7 @@
       "Coming from old classic SharePoint pages you might have existing script solutions you want to re-use on a modern page without having to repackage it as a new SharePoint Framework web part."
     ],
     "creationDateTime": "2019-10-13",
-    "updateDateTime": "2022-06-14",
+    "updateDateTime": "2022-08-31",
     "products": [
       "SharePoint"
     ],
@@ -16269,6 +16431,12 @@
         "order": 102,
         "url": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-taxonomy-file-explorer/assets/04Move.gif",
         "alt": "Copying a file"
+      },
+      {
+        "type": "video",
+        "order": 103,
+        "url": "https://www.youtube.com/embed/V10hJuakgis",
+        "alt": "Community demo of the web part"
       }
     ],
     "authors": [
@@ -16516,6 +16684,12 @@
         "order": 100,
         "url": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-teams-graph-upload-as-pdf/assets/UploadAnimated.gif",
         "alt": "Web Part Preview"
+      },
+      {
+        "type": "video",
+        "order": 101,
+        "url": "https://www.youtube.com/embed/ikujJ0UnGAY",
+        "alt": "Community demo of the web part"
       }
     ],
     "authors": [
