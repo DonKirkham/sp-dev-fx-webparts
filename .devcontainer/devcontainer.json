@@ -1,12 +1,11 @@
 {
   "name": "SPFx Node.js & TypeScript",
-  "image": "mcr.microsoft.com/devcontainers/typescript-node:16-bullseye",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:14",
   // Set *default* container specific settings.json values on container create.
   "settings": {},
   // Add the IDs of extensions you want installed when the container is created.
   "extensions": [
-    "editorconfig.editorconfig"//,
-    //"dbaeumer.vscode-eslint"
+    "editorconfig.editorconfig"
   ],
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   "forwardPorts": [
@@ -33,6 +32,6 @@
       "requireLocalPort": true
     }
   },
-  // "postCreateCommand": "bash .devcontainer/spfx-startup.sh",
+  //"postStartCommand": "bash .devcontainer/spfx-startup.sh",
   "remoteUser": "node"
 }
